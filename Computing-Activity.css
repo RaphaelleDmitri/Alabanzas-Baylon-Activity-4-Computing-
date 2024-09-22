@@ -1,0 +1,205 @@
+
+
+
+        body {
+            margin: 1;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #181d20 ;
+            background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5));
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .subheadding {text-align: center;
+                      margin-top: 100px;
+                      font-size: 16px;
+                      font-family: Montserrat-Regular;
+                      }
+
+        .maintitle {text-align:center;
+                    margin-top: 5px;
+                    font-size: 70px;
+                    font-family:"ArsenicaTrial-Bold";
+                    color:  "#791919"; }
+
+
+        .group-container {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 50px;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+
+        .member-column {
+
+            background-color: #181d20;
+            border-radius: 20px;
+            box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);(17, 20, 23);
+            text-align: center;
+            width: 40%;
+            margin: 20px;
+            padding: 5px;
+            padding: 5px;
+          transition: background-color .75s, transform .15s ease-in;
+           position: relative;
+           border-style: solid;
+           border-color: #4b5560 ;
+
+        }
+
+
+        .member-column:hover {
+            background-color: ;
+            transform: scale(1.05);
+        }
+
+
+        .member-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+            margin-bottom: 80px;
+           position: absolute;
+           top: 20px;
+           left:50%;
+           transform: translateX(-50%);
+            transition: opacity .5s;
+
+        }
+
+        .member-photo.hover-image {
+            opacity: 0; /* Start as invisible */
+        }
+
+        .member-column:hover .member-photo.default-image {
+            opacity: 0; /* Hide default image on hover */
+        }
+
+        .member-column:hover .member-photo.hover-image {
+            opacity: 1; /* Show hover image */
+        }
+
+
+        .member-name {
+
+            font-size: 32px;
+            font-weight: ThinItalic;
+            font-family: Montserrat;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            color: #dfe6ec;
+        }
+
+
+        .member-description {
+            font-size: 10px;
+            font-family: Montserrat;
+            font-weight: lighter;
+            margin-bottom: 12px;
+            padding-left: 46px;
+            padding-right: 46px;
+            color: #dfe6ec;
+        }
+            .hobbylist{
+            display: flex;
+            justify-content: space-evenly;
+            padding:;
+            flex-wrap: wrap;
+            margin-left: 50px;
+          }
+
+            .hobbies-list1 {
+            text-align: left;
+            font-family: Montserrat-Regular;
+            font-size: 10px;
+            padding-left: 10px;
+            padding-right: 30px;
+            list-style-type: disc;
+            color: #dfe6ec;
+            float: left;
+            width: 40%;
+          }
+            .hobbies-list2 {
+            text-align: left;
+            font-family: Montserrat-Regular;
+            font-size: 10px;
+            padding-left: 0px;
+            padding-right: 0px;
+            list-style-type: disc;
+            color: #dfe6ec;
+            float: right;
+            width: 40%;
+        }
+         .member-quote {
+            margin-top: 280px;
+            font-size: 12px;
+            font-family: Montserrat-ThinItalic;
+            font-style: italic;
+            margin-bottom: -16px;
+            color: #b2beca;
+            text-align: center;
+                  }
+
+
+      .button {
+      background-color: #181d20;
+      color: white;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 10px;
+      border: none;
+      border-radius: 15px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+      margin: 20px;
+      margin-bottom: -40px;
+      transition: background-color .5s ease;
+      border: 2px solid #4b5560;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+      .buttontext{
+        color: white;
+        font-size: 10px;
+        font-family: Montserrat;
+        font-weight: thin;
+        text-decoration: none
+
+      }
+
+    .button:hover {
+      background-color: #2b4880;
+}
+
+    .music-player
+    {
+      margin-bottom: 40px;
+
+    }
+    .music-name {font-size: 22px;
+                font-weight: bold;
+                font-family: Montserrat;
+                text-transform: uppercase;
+                margin-bottom: 22px;
+                color: #dfe6ec;}
+    .music-description {
+                font-size: 10px;
+                font-weight: ThinItalic;
+                font-family: Montserrat;
+                text-transform: uppercase;
+                margin-bottom: 22px;
+                color: #dfe6ec;
+
+
+    }
